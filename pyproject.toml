@@ -1,0 +1,33 @@
+[tool.poetry]
+name = "aprel-4-home"
+version = "0.1.0"
+description = ""
+authors = ["khasanjon <khasanjon.eng@gmail.com>"]
+readme = "README.md"
+packages = [{include = "aprel_4_home"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+fastapi = "^0.95.0"
+uvicorn = "^0.21.1"
+python-dotenv = "^1.0.0"
+celery = "^5.2.7"
+flower = "^1.2.0"
+redis = "^4.5.4"
+python-multipart = "^0.0.6"
+sqlalchemy = "^2.0.8"
+psycopg2-binary = "^2.9.6"
+ujson = "^5.7.0"
+passlib = "^1.7.4"
+bcrypt = "^4.0.1"
+python-jose = "^3.3.0"
+faker = "^18.3.4"
+elasticsearch = "^8.6.2"
+aiohttp = "^3.8.4"
+isort = "^5.12.0"
+flake8 = "^6.0.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
